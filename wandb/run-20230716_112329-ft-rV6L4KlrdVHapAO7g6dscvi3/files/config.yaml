@@ -1,0 +1,96 @@
+wandb_version: 1
+
+object:
+  desc: null
+  value: fine-tune
+id:
+  desc: null
+  value: ft-rV6L4KlrdVHapAO7g6dscvi3
+hyperparams:
+  desc: null
+  value:
+    n_epochs: 4
+    batch_size: 8
+    prompt_loss_weight: 0.01
+    learning_rate_multiplier: 0.1
+organization_id:
+  desc: null
+  value: org-4MIbwq6pGkIxyYGJHzTJGH3u
+model:
+  desc: null
+  value: curie
+training_files:
+  desc: null
+  value:
+    object: file
+    id: file-Wv5WCWKMImMur06B731soWAq
+    purpose: fine-tune
+    filename: prepocess/result37_prepared_train.jsonl
+    bytes: 1619282
+    created_at: 1689327580
+    status: processed
+    status_details: null
+validation_files:
+  desc: null
+  value:
+    object: file
+    id: file-osqIUwYzWiKaoGczoMLeOtDT
+    purpose: fine-tune
+    filename: prepocess/result37_prepared_valid.jsonl
+    bytes: 320954
+    created_at: 1689327583
+    status: processed
+    status_details: null
+result_files:
+  desc: null
+  value:
+    object: file
+    id: file-oUQHtycoawi1rQSziEUXvcfY
+    purpose: fine-tune-results
+    filename: compiled_results.csv
+    bytes: 169475
+    created_at: 1689418815
+    status: processed
+    status_details: null
+created_at:
+  desc: null
+  value: '2023-07-15T17:15:04'
+updated_at:
+  desc: null
+  value: 1689418816
+status:
+  desc: null
+  value: succeeded
+fine_tuned_model:
+  desc: null
+  value: curie:ft-personal-2023-07-15-11-00-14
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.16
+    cli_version: 0.15.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1689474209.958247
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 2
+      - 13
+      - 14
+      - 16
+      - 23
+      4: 3.8.16
+      5: 0.15.3
+      8:
+      - 3
+      - 5
+n_train:
+  desc: null
+  value: 4995
+n_valid:
+  desc: null
+  value: 1000

@@ -1,0 +1,54 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-08-06T02:30:27.992131",
+    "startedAt": "2023-08-06T02:30:27.047471",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-k",
+        "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",
+        "wandb",
+        "sync"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "git": {
+        "remote": "https://github.com/pikaybh/Classification-using-GPT-API.git",
+        "commit": "6d5a8a611c72d96630ec2e6055d7517015c543fa"
+    },
+    "email": "pikabh@naver.com\\n",
+    "root": "C:/Users/bhyoo/Documents/My Projects/Causal Analysis/GPT Fine-tuning",
+    "host": "DESKTOP-Q09O92I",
+    "username": "bhyoo",
+    "executable": "D:\\ProgramFiles\\anaconda3\\envs\\py38_openai\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 232.28515243530273,
+        "used": 204.41281509399414
+    },
+    "gpu": "GeForce GT 730",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce GT 730",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.895977020263672
+    }
+}
